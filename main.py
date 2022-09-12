@@ -6,7 +6,7 @@ proxies = {
     }
 
 # L = instaloader.Instaloader(request_timeout=random.randint(300, 900))
-L = instaloader.Instaloader(request_timeout=random.randint(300, 900))
+L = instaloader.Instaloader()
 
 # L.login(USER, PASSW) # login for private account
 ins_prof = input("Input instagram profile name: ")
